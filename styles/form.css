@@ -1,0 +1,102 @@
+
+footer {
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 0;
+}
+
+.logos { 
+	text-align: center;
+	font-size: 0;
+	display: block;
+	background-color: white;	
+	padding: 20px;
+}
+
+.partners {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.contacts {
+	padding: 40px;
+	text-align: center;
+	background: #222222 url("../images/map_image.png") no-repeat 100% 100%;
+}
+
+.title_contact {
+	color: white;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 75px;
+	text-transform: uppercase;
+	margin: 40px auto -25px;
+}
+
+.block-left {
+	float: left;
+	width: 450px;
+	margin-top: 40px;	
+}
+
+.right_form {
+	width: 450px;
+	height: 165px;
+	border-radius: 4px;
+	font-size: 15px;
+	float: right;	
+	padding: 15px 0 0 15px;
+	margin-top: 40px;
+}
+
+.left_form {
+	width: 430px;
+	height: 45px;
+	border-radius: 4px;
+	font-size: 15px;
+	float: left;	
+	padding-left: 15px;
+	margin: 0px auto 20px;
+	border: 0px;
+}
+
+.sharing {
+	display: block;
+	float: left;
+	width: 41px;
+	height: 41px;
+	background: url("../images/icon-bg.png") no-repeat 100%;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.cr {
+	display: inline-block;
+	float: left;
+	color: #777;
+	font-family: DroidSerif;
+	font-size: 16px;
+	font-style: italic;
+	margin-right: 60px;
+}
+
+
+.button2 a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 20px 35px;
+    background-color: #fed136;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.button2 a:active{
+   box-shadow: inset 0 0 10px 0 rgba(0,0,0,0.5);
+}
+

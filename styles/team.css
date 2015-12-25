@@ -1,0 +1,103 @@
+
+.team {
+    display: block;
+    background-color: #f0f0f0;  
+    text-align: center;
+    padding: 40px;
+}
+
+.services-list {
+    padding: 0;
+    margin: 10px 0 0;
+    }
+
+.services-list-item {
+    list-style: none;
+    width: 290px;
+    display:inline-block;
+    margin: 57px -4px 0 0;
+    padding: 0px 10px 30px;
+    }
+        
+.services-pic {
+    display: block;
+    margin: 0 auto;
+    width: 73px;
+    height: 73px;
+    }
+
+.team-description {
+    font-family: DroidSerif;
+    font-size: 15px;
+    display: inline-block;
+    color: #777;
+    text-align: center;
+    margin: 10px 0 10px;
+    }
+
+.round_image {
+	width: 210px;
+	height: 210px;
+    border-radius: 117px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+	opacity: 0.75;
+	-moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;}
+
+.round_image:hover {
+	opacity: 1;
+	-webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03); 
+    -o-transform: scale(1.03);}
+
+
+/* надо будет сократить и выровнять по центру блока */
+
+a.twitter {
+	background: url(../images/twitter.png);
+    display:inline-block;
+    width: 40px;
+    height: 40px;
+    margin: -5px 5px 0 0;}
+
+a.twitter:hover {
+    background-position: 0 -40px;}
+
+a.facebook {
+	background: url(../images/facebook.png);
+    display:inline-block;
+    margin: -5px 5px 0 0;
+    width: 40px;
+    height: 40px;}
+
+a.facebook:hover {
+    background-position: 0 -40px;}
+
+a.pinterest {
+	background: url(../images/pinterest.png);
+    display:inline-block;
+    margin: -5px 5px 0 0;
+    width: 40px;
+    height: 40px;}
+
+a.pinterest:hover {
+    background-position: 0 -40px;}
+
+a.g_plus {
+	background: url(../images/g_plus.png);
+    display:inline-block;
+    margin: -5px 5px 0 0;
+    width: 40px;
+    height: 40px;}
+
+a.g_plus:hover {
+    background-position: 0 -40px;}
+
+@media screen and(max-width:768px){
+.round_image {
+	width: 110px;
+	height: 110px;
+	}
+}

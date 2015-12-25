@@ -1,0 +1,77 @@
+
+@media screen and (max-width: 767px) {
+
+    .header {
+        height: 350px;
+    }
+
+
+    .menu-btn {
+        display: block;
+    }
+
+    .meat p {
+        font-size: 30px;
+    }
+
+    .welcome {
+        margin: 20px;
+    }
+
+    .welcome p {
+        font-size: 25px;
+    }
+
+    .logo {
+        text-align: center;
+        float: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .button-wrap{
+        text-align: center;
+        margin-top:35px;
+    }
+    .button  {
+        margin: 0;
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding:15px  30px;
+        background-color: #fed136;
+        border-radius: 3px;
+        font-size: 10px;
+    }
+
+    .button :active {
+        box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 360px){
+
+    .button-wrap{
+        margin-top: 15px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 290px){
+
+    .meat{
+        margin-top:0;
+    }
+}

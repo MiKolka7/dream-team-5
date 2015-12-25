@@ -1,0 +1,48 @@
+.services {
+	display: block;
+	background: white;
+	text-align: center;
+	padding: 40px;
+	}
+
+.services-title {
+	font-size: 18px;
+	font-family: 'Montserrat';
+	color: black;
+	text-align: center;
+	margin: 20px 0 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	}
+
+.services-list {
+	padding: 0;
+	margin: 10px;
+	}
+
+.services-list-item {
+	list-style: none;
+	width: 290px;
+	display:inline-block;
+	margin: 57px -4px 0 0;
+	padding: 0px 10px 10px;
+	}
+		
+.services-pic {
+	display: block;
+	margin: 0 auto;
+	width: 73px;
+	height: 73px;
+	}
+
+.services-description {
+	font-family: DroidSerif;
+	font-size: 15px;
+	color: #777;
+	text-align: center;
+	margin: 10px auto;
+	}
+
+
+
+		

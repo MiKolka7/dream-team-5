@@ -1,0 +1,47 @@
+
+
+.img3 {
+	width: 100%;
+}
+
+.portfolio {
+	display: block;
+	background-color: #f0f0f0;	
+	text-align: center;
+	padding: 40px;
+}
+
+.portfolio-list {
+	padding: 0;
+	list-style-type: none;
+}
+
+.portfolio-list__item {
+	max-width: 313px;
+	float: left;
+	margin: 0 1% 20px;
+	background: white;
+}
+
+.title2 {
+	color: #222;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 18px;
+	text-transform: uppercase;
+	margin-bottom: -10px;
+}
+
+.description2 {
+	text-align: center;
+	color: #777;
+	font-family: DroidSerif;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.portfolio-list__item > img {
+	display: block;
+}
