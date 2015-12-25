@@ -1,0 +1,18 @@
+@media (max-width: 940px;) {
+	.container {
+	max-width: 940px;			
+	}
+
+	.sub-block {
+	width: 100%;	
+	}
+
+	.line {
+		display: none;
+		
+		
+	}
+	
+}
+
+
